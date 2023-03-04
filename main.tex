@@ -1,0 +1,89 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath,amssymb,graphicx,wasysym}
+\usepackage{psfrag,pstricks,verbatim}
+\usepackage[squaren]{SIunits}
+\usepackage{multirow}
+\usepackage{halloweenmath}
+\topmargin=-.5in
+\oddsidemargin=0in
+\evensidemargin=0in
+\textwidth=6.5in
+\textheight=9.1in
+\parindent=0pt
+\pagestyle{empty}
+\begin{document}
+
+Names\underline{ Weston Slayton} \\
+
+\begin{enumerate}
+
+\item{ Use \LaTeX\ to typeset the contents of these two pages, \textbf{including your names on the line above}. Your output should look identical to the content here, including a
+footnote\footnote{like this!}, a figure generated in \textit{Mathematica}, and a table generated in \textit{Mathematica}. When you submit, combine---\textbf{in this order}---your PDF, your \LaTeX\ source, and your \textit{Mathematica} code into a single PDF and upload to Schoology as always.}
+
+\begin{enumerate}
+
+\item{ The figure below shows the first five polynomial approximations of cos \textit{x}. Create this exact figure, six inches wide, formatted exactly as shown. Do not type all five functions one at a time; rather, use \verb+Table[]+\ the way we discussed in class. }
+
+\begin{center}
+\includegraphics[width = 6in]{p1image.pdf}
+\end{center}
+
+\vspace{2.5in}
+
+\item{ The \verb+TableForm[]+\ shown below is a trig table which shows sine, cosine, and tan-gent values for integer angles from 0\degree\ through 360\degree\ in steps of 10\degree. Like we said in class, we could save the \verb+TableForm[]+\ as a PDF and import it like we’ve done before.
+
+$$
+\begin{array}{||c|c|c|c||}
+\hline
+ \text{angle} & \text{sine} & \text{cosine} & \text{tangent} \\
+ \hline
+ 0 & 0 & 1.000 & 0 \\
+ 10 & 0.1736 & 0.9848 & 0.1763 \\
+ 20 & 0.3420 & 0.9397 & 0.3640 \\
+ 30 & 0.5000 & 0.8660 & 0.5774 \\
+ 40 & 0.6428 & 0.7660 & 0.8391 \\
+ 50 & 0.7660 & 0.6428 & 1.192 \\
+ 60 & 0.8660 & 0.5000 & 1.732 \\
+ 70 & 0.9397 & 0.3420 & 2.747 \\
+ 80 & 0.9848 & 0.1736 & 5.671 \\
+ 90 & 1.000 & 0 & \text{ComplexInfinity} \\
+ 100 & 0.9848 & -0.1736 & -5.671 \\
+ 110 & 0.9397 & -0.3420 & -2.747 \\
+ 120 & 0.8660 & -0.5000 & -1.732 \\
+ 130 & 0.7660 & -0.6428 & -1.192 \\
+ 140 & 0.6428 & -0.7660 & -0.8391 \\
+ 150 & 0.5000 & -0.8660 & -0.5774 \\
+ 160 & 0.3420 & -0.9397 & -0.3640 \\
+ 170 & 0.1736 & -0.9848 & -0.1763 \\
+ 180 & 0 & -1.000 & 0 \\
+ 190 & -0.1736 & -0.9848 & 0.1763 \\
+ 200 & -0.3420 & -0.9397 & 0.3640 \\
+ 210 & -0.5000 & -0.8660 & 0.5774 \\
+ 220 & -0.6428 & -0.7660 & 0.8391 \\
+ 230 & -0.7660 & -0.6428 & 1.192 \\
+ 240 & -0.8660 & -0.5000 & 1.732 \\
+ 250 & -0.9397 & -0.3420 & 2.747 \\
+ 260 & -0.9848 & -0.1736 & 5.671 \\
+ 270 & -1.000 & 0 & \text{ComplexInfinity} \\
+ 280 & -0.9848 & 0.1736 & -5.671 \\
+ 290 & -0.9397 & 0.3420 & -2.747 \\
+ 300 & -0.8660 & 0.5000 & -1.732 \\
+ 310 & -0.7660 & 0.6428 & -1.192 \\
+ 320 & -0.6428 & 0.7660 & -0.8391 \\
+ 330 & -0.5000 & 0.8660 & -0.5774 \\
+ 340 & -0.3420 & 0.9397 & -0.3640 \\
+ 350 & -0.1736 & 0.9848 & -0.1763 \\
+ 360 & 0 & 1.000 & 0 \\
+ \hline
+\end{array}
+$$
+
+\textbf{Instead}, use \textit{Mathematica} to create a \LaTeX\ \verb+array+\, and copy and paste it into your \verb+.tex+\ document. Then, in \LaTeX,\ add the appropriate formatting.
+
+}
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
